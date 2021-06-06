@@ -7,8 +7,8 @@ class Close extends StatelessWidget {
     return Stack(
       children: [
         Container(
-          width: 40,
-          height: 40,
+          width: 35,
+          height: 35,
           margin: EdgeInsets.only(
             top: 20,
             right: 20,
@@ -16,7 +16,7 @@ class Close extends StatelessWidget {
           ),
           child: Material(
             borderRadius: BorderRadius.circular(40.0),
-            color: Colors.yellow,
+            color: Colors.blueAccent,
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
                 primary: Colors.transparent,
@@ -29,13 +29,9 @@ class Close extends StatelessWidget {
                     MaterialPageRoute(builder: (Context) => HomePage()));
               },
               child: Container(
-                alignment: Alignment.center,
-                margin: EdgeInsets.only(
-                  right: 5,
-                ),
                 child: Icon(
                   Icons.close,
-                  size: 12,
+                  size: 15,
                   color: Colors.white,
                 ),
               ),

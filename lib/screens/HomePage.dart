@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
                   height: size.height * 0.40 - 27,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage('assets/images/liverpool.jpg'),
+                        image: AssetImage('assets/images/bg.png'),
                         fit: BoxFit.cover),
                   ),
                 ),

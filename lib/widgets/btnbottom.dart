@@ -11,10 +11,10 @@ class BtnButton extends StatelessWidget {
       ),
       child: Material(
         borderRadius: BorderRadius.circular(20.0),
-        color: Colors.yellow[600],
+        color: Colors.blueAccent,
         child: ElevatedButton(
           style: ElevatedButton.styleFrom(
-              primary: Colors.yellow[600],
+              primary: Colors.blueAccent,
               shape: RoundedRectangleBorder(
                   borderRadius: new BorderRadius.circular(20.0))),
           onPressed: () {},

@@ -7,12 +7,12 @@ class SecondPage extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Container(
-      color: Colors.yellow[600],
+      color: Colors.blueAccent,
       child: Column(
         children: [
           Container(
             height: size.height * 0.35,
-            color: Colors.yellow[600],
+            color: Colors.blueAccent,
             child: Appbar(),
           ),
           Expanded(

@@ -21,7 +21,7 @@ class Card1 extends StatelessWidget {
               borderRadius: BorderRadius.circular(9),
             ),
             child: Icon(
-              Icons.calendar_today,
+              Icons.calendar_today_outlined,
               size: 27,
               color: Colors.white,
             ),

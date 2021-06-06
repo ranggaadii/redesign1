@@ -11,7 +11,7 @@ class Itemlist extends StatelessWidget {
       child: Column(
         children: <Widget>[
           ItemCard(
-            img: 'assets/images/liver.jfif',
+            img: 'assets/images/ball.jfif',
             title: 'Zenith Tennis Center',
             price: r"$.15 per hour",
           ),
@@ -22,7 +22,7 @@ class Itemlist extends StatelessWidget {
                     Border(top: BorderSide(width: 1.0, color: Colors.black12))),
           ),
           ItemCard(
-            img: 'assets/images/lacoste.jfif',
+            img: 'assets/images/lacoste.png',
             title: 'Lacoste Club',
             price: r'$.25 per hour',
           ),
@@ -33,7 +33,7 @@ class Itemlist extends StatelessWidget {
                     Border(top: BorderSide(width: 1.0, color: Colors.black12))),
           ),
           ItemCard(
-            img: 'assets/images/dollar.jfif',
+            img: 'assets/images/hatch.png',
             title: 'Hatch End',
             price: r'$.20 per hour',
           ),

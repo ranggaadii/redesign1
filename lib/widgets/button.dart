@@ -12,10 +12,10 @@ class Button extends StatelessWidget {
           margin: EdgeInsets.only(left: 270, bottom: 10),
           child: Material(
             borderRadius: BorderRadius.circular(40.0),
-            color: Colors.yellow,
+            color: Colors.blueAccent,
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
-                primary: Colors.yellow[600],
+                primary: Colors.blueAccent,
                 shape: RoundedRectangleBorder(
                   borderRadius: new BorderRadius.circular(40.0),
                 ),
